@@ -1,0 +1,9 @@
+name: EC-Terminal
+version: '1.0-SNAPSHOT'
+main: at.racermarco20.ecTerminal.ECTerminalPlugin
+api-version: '1.21'
+description: 'A working EC-Terminal for paying with a credited card.'
+commands:
+  ec:
+    description: 'Open the ECTerminal'
+    usage: '/ec <Zahl>'
